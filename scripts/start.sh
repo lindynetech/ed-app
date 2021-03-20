@@ -1,3 +1,3 @@
 #!/bin/sh
-    
-start helloworld 
+systemctl daemon-reload    
+systemctl start helloworld 
