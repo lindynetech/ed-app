@@ -10,8 +10,8 @@ describe('main page', function() {
   before(function(done) {
     this.browser.visit('/', done)
   })
-  it('should say hello world', function() { 
+  it('should say Hello From CodePipeline Master', function() { 
     assert.ok(this.browser.success)
-    assert.equal(this.browser.text(), "Hello World")
+    assert.equal(this.browser.text(), "Hello From CodePipeline Master")
   })
 })
